@@ -454,6 +454,12 @@ body {
     gap: 2rem;
 }
 
+
+
+.carousel-btn {
+    display: none;
+}
+
 .project-card {
     background: var(--dark-secondary);
     border-radius: 0.5rem;
@@ -1129,7 +1135,7 @@ body {
     }
 
     .projects-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .skills-grid {
@@ -1186,6 +1192,14 @@ body {
 
     .stat {
         padding: 1rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .carousel-btn {
+        display: none;
     }
 
     .contact-item {
